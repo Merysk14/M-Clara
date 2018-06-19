@@ -4,7 +4,7 @@
 <head>
     <title>CURRICULO PROVA</title>
     <meta charset="UTF-8">
-    <link href="/home/ads/Área de Trabalho/Klara/css/estilocontato.css" rel="stylesheet">
+    <link href="css/estilocontato.css" rel="stylesheet">
 </head>
 
 <body>
@@ -32,26 +32,28 @@
     </aside>
 
     <main>
-        <h3 class ="text-center"> Contato</h3>
-        <form>
+    <h2>Contato</h2>
         <form action="/action_page.php">
-            Nome:<br>
-            <input required type="text" name="firstname"><br>
-            Email:<br>
-            <input required type="text" name="lastname"><br><br>
-            Assunto:<br>
-            <select name="Assunto">
-            <option value="Selecionar">Selecionar</option>
-            <option value="Ajuda">Ajuda</option>
-            <option value="Proposta">Proposta</option>
-            <option value="Duvida">Duvida</option>
-          </select><br><br>
-
-          Mensagem:<br>
-          <textarea required name="Mensagem" cols= "60" rows="10"> </textarea><br><br>
-          <input type="submit" value="Enviar">
-    </form>
-             
+            Nome:
+            <br>
+            <input type="text" name="firstname">
+            <br> Email:
+            <br>
+            <input type="email" name="lastname">
+            <br> Selecionar:
+            <br/>
+            <select name="assunto">
+                <option value="ajuda">Ajuda</option>
+                <option value="proposta">Proposta</option>
+                <option value="duvida">Dúvida</option>
+            </select>
+            <br/> Mensagem:
+            <br>
+            <textarea required></textarea>
+            <br/>
+            <br/>
+            <input type="submit" value="Enviar">
+        </form>
     </main>
 
     <footer>
